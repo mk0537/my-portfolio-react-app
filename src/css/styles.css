@@ -1,0 +1,372 @@
+html, body, #root {
+    margin: 5px;
+    padding: 5px;
+    height: 100%;
+    background: #f4f6f8;
+}
+
+/* App.js */
+.App {
+
+}
+
+.App-container {
+  background: linear-gradient(135deg, #eef2f3, #d2e1f7);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.App-header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.App-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.App-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.selfcam-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
+
+.App-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.App-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.App-tags span {
+  background-color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: inline-block;
+}
+
+.App-links a {
+  margin: 0 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+
+/* About.js */
+.About {
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.About-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.About-container {
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 25px 30px;
+  max-width: 700px;
+  width: 90%;
+  text-align: left;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.About-greeting {
+  font-style: italic;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.About-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.highlight {
+  color: #1f96ff;
+  font-weight: bold;
+}
+
+
+/* Skills.js */
+.Skills {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Skills-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.Skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.Skill-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 25px 30px;
+  border: 1px solid rgb(207, 207, 207);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.Skill-card:hover {
+  transform: translateY(-6px);
+}
+
+.Skills-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f96ff;
+  margin-bottom: 15px;
+}
+
+.Skills-ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.Skills-ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.Skills-ul li strong {
+  color: #767676;
+  font-weight: bold;
+}
+
+.Skills-ul li::before {
+  content: '•';
+  color: #1f96ff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+/* Projects.js */
+.Project {
+  padding: 80px 20px;
+}
+
+.Project-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #1f96ff;
+}
+
+.Project-category {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 가로 정렬 & 반응형 */
+.Project-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto 60px auto;
+  max-width: 900px;  /* 💡 가로폭 제한 */
+}
+
+/* 설명 박스 */
+.Project-container {
+  flex: 1 1 50%;
+  min-width: 300px;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  font-size: 20px;
+}
+
+.Project-subtitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Project-content {
+  font-size: 18px;
+  margin-bottom: 18px;
+  line-height: 1.8;
+}
+
+.Project-ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.highlight {
+  color: #1f96ff;
+  font-weight: 500;
+}
+
+/* 이미지 카드 */
+.Preview-card {
+  position: relative;
+  flex: 1 1 350px;
+  max-width: 350px;
+  height: 100%;
+  display: flex; 
+  flex-direction: column; /* 세로 방향 정렬 */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  background-color: white; 
+}
+
+.Preview-card:hover {
+  transform: translateY(-6px);
+}
+
+.Preview-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+.Preview-title {
+  margin-top: auto; /* 항상 아래로 밀리게 */
+  background-color: #1f96ff;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 팀 프로젝트 미리보기에 블러 처리 */
+.Preview-card.developing img {
+  filter: blur(2.8px);
+}
+
+/* 개발중 문구 스타일 */
+.Preview-card.developing::before {
+  content: "개발중...";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  pointer-events: none;
+  user-select: none;
+  z-index: 2;
+}
+
+
+
+/* Contact.js */
+.Contact {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.Contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1f96ff;
+}
+
+.Contact-container {
+  background-color: #f9f9f9;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.Contact-link {
+  margin-left: 4px;
+  color: #1f96ff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Contact-link:hover {
+  color: #147bd1;
+  text-decoration: underline;
+}
+
+
+
+
+/* Optional: Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
