@@ -13,7 +13,7 @@ function App() {
         <div className="App-content">
           <div className="App-top">
             <img
-              src="/selfcam.jpg"
+              src="/my-portfolio-react-app/selfcam.jpg"
               alt="selfcam"
               className="selfcam-img"
             />

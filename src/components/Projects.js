@@ -30,7 +30,7 @@ const Projects = () => {
           rel="noreferrer"
         >
           <img
-            src="/myboard.png"
+            src="/my-portfolio-react-app/myboard.png"
             alt="나만의 게시판 미리보기"
             className="Preview-img"
           />
@@ -66,7 +66,7 @@ const Projects = () => {
           onClick={(e) => e.preventDefault()} // 링크 비활성화
         >
           <img
-            src="/bookcafe.png"
+            src="/my-portfolio-react-app/bookcafe.png"
             alt="찜 도서 미리보기"
             className="Preview-img"
           />
