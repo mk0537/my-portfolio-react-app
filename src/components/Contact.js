@@ -26,10 +26,9 @@ const Contact = () => {
         <p>
           📄 Resume:&nbsp;
           <a
-            href="/resume.pdf"
+            href="/my-portfolio-react-app/resume.pdf"
             className="Contact-link"
-            target="_blank"
-            rel="noreferrer"
+            download
           >
             이력서 다운로드 (PDF)
           </a>
