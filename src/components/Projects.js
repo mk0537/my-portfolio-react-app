@@ -45,13 +45,12 @@ const Projects = () => {
                 className="Preview-img"
               />
               <div className="Preview-title">my-login-project</div>
-              {/* <div className="Preview-overlay danger">
+              <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 문제점 발생</div>
                 <div className="Overlay-description">
-                  스프링부트는 EC2에, 리액트는 S3에 각각 배포는 완료된 상태이지만<br />
-                  CORS 접근 제한 문제가 발생하여 해결 중입니다.
+                  게시글 작성일 정보가 전달되고 있지 않아 해결하는 중입니다.
                 </div>
-              </div> */}
+              </div>
             </a>
           </div>
         </div>
