@@ -44,8 +44,8 @@ const Projects = () => {
                 alt="나만의 게시판 미리보기"
                 className="Preview-img"
               />
-              {/* <div className="Preview-title">my-login-project</div>
-              <div className="Preview-overlay danger">
+              <div className="Preview-title">my-login-project</div>
+              {/* <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 문제점 발생</div>
                 <div className="Overlay-description">
                   게시글 작성일 정보가 전달되고 있지 않아 해결하는 중입니다.
