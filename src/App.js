@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import ViewCounter from './components/ViewCounter';
 
 import "./css/styles.css";
 
@@ -14,6 +15,9 @@ function App() {
   return (
     <div className="App-container">
       <header className="App-header">
+        <div className="view-counter-wrapper">
+          <ViewCounter />
+        </div>
         <div className="App-content">
           <div className="App-top">
             <img

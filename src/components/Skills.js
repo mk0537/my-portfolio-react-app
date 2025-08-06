@@ -21,7 +21,7 @@ const Skills = () => {
         <div className="Skill-card">
             <h3 className="Skills-subtitle">🎨 Frontend</h3>
             <ul className="Skills-ul">
-                <li>⚛️ React / React Router</li>
+                <li>⚛️ React / React Native / React Router</li>
                 <li>📡 Axios / fetch / localStorage</li>
                 <li>📝 Toast UI Editor (이미지 업로드 포함)</li>
                 <li>🔐 로그인 / 회원가입 컴포넌트 기반 UI</li>
