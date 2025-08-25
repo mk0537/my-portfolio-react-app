@@ -324,9 +324,12 @@ html, body, #root {
   filter: blur(2.8px);
 }
 
-/* 개발중 문구 스타일 */
+.Preview-card.developing2 img {
+  filter: blur(2.8px);
+}
+
 .Preview-card.developing::before {
-  content: "개발중...";
+  content: "보수 작업 중...";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -339,6 +342,28 @@ html, body, #root {
   user-select: none;
   z-index: 2;
 }
+
+/* 개발중 문구 스타일 */
+.Preview-card.developing2::before {
+  content: "개발 진행 중...";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  pointer-events: none;
+  user-select: none;
+  z-index: 2;
+}
+
+/* 호버 시에는 ::before 글씨 안 보이게 */
+.Preview-card.developing:hover::before {
+  content: "";
+}
+
 
 /* 오버레이 공통 */
 .Preview-overlay {

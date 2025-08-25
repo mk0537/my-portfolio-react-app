@@ -16,7 +16,7 @@ function App() {
     <div className="App-container">
       <header className="App-header">
         <div className="view-counter-wrapper">
-          <ViewCounter />
+          <ViewCounter pageKey="home" />
         </div>
         <div className="App-content">
           <div className="App-top">

@@ -14,7 +14,7 @@ const Projects = () => {
     <section className="Project" id="projects">
       <h2 className="Project-title">📂 Projects</h2>
 
-        {/* ① 개인 프로젝트 */}
+        {/* 개인 프로젝트 */}
         <div className="Project-slide">
           <h3 className="Project-category">👤 개인 프로젝트</h3>
           <div className="Project-row">
@@ -55,9 +55,9 @@ const Projects = () => {
           </div>
         </div>
      
-        {/* ② 팀 프로젝트 */}
+        {/* 팀 프로젝트 - 1  */}
         <div className="Project-slide">
-          <h3 className="Project-category">🤝 팀 프로젝트</h3>
+          <h3 className="Project-category">🤝 팀 프로젝트 - 1</h3>
           <div className="Project-row">
             <div className="Project-container">
               <h3 className="Project-subtitle">📚 북 카페 서비스</h3>
@@ -87,9 +87,61 @@ const Projects = () => {
                 className="Preview-img"
               />
               <div className="Preview-title">book-cafe-project</div>
+              <div className="Preview-overlay danger">
+                <div className="Overlay-title">⚠️ 문제점 발생</div>
+                <div className="Overlay-description">
+                 프로젝트 진행 중 일정 조율에 어려움이 있어 잠시 중단되었으나,  
+                  이를 통해 협업과 커뮤니케이션의 중요성을 배우게 되었습니다.  
+                  현재는 개인적으로 보완 작업을 진행 중입니다.
+                </div>
+              </div>
+            </a>
+            </div>
+            </div>
+
+          {/* 팀 프로젝트 - 2 */}
+          <div className="Project-slide">
+          <h3 className="Project-category">🤝 팀 프로젝트 - 2</h3>
+          <div className="Project-row">
+            <div className="Project-container">
+              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지</h3> 
+                <p className="Project-content">
+                  <span className="highlight">공공데이터 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
+                   서비스를 개발 중입니다. <br />
+                  <span className="highlight">메인 페이지, 축제 검색, 상세 페이지, 반응형 UI</span>를 구현했으며,  <br />
+                  <span className="highlight">기획, DB 설계 및 API 연동</span>을 직접 담당했습니다.
+                </p>
+                <ul className="Project-ul">
+                  <li>React 기반 축제 메인/상세 페이지 UI 제작</li>
+                  <li>공공데이터포털 축제 정보 API 연동</li>
+                  <li>검색 및 필터 기능(지역/기간별)</li>
+                  <li>Spring Boot 기반 백엔드 (축제 정보 DB 관리, API 제공)</li>
+                  <li>AWS EC2, RDS 배포 예정</li>
+                </ul>
+            </div>
+
+            <a
+              href="#"
+              className="Preview-card developing2"
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.preventDefault()}
+            >
+              <img
+                src="/"
+                alt="전국 축제 웹서비스 미리보기"
+                className="Preview-img"
+              />
+              <div className="Preview-title">Festival_web_project</div>
+              {/*<div className="Preview-overlay danger">
+                <div className="Overlay-title">⚠️ 문제점 발생</div>
+                <div className="Overlay-description">
+                 팀원의 갑작스런 커뮤니케이션 문제로 보수 중입니다.
+                </div> 
+              </div> */}
             </a>
           </div>
-        </div>
+          </div>
     </section>
   );
 };
