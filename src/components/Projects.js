@@ -104,19 +104,20 @@ const Projects = () => {
           <h3 className="Project-category">🤝 팀 프로젝트 - 2</h3>
           <div className="Project-row">
             <div className="Project-container">
-              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지</h3> 
+              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지 </h3> <small style={{color : "grey"}}>(2025.08.11 ~ing)</small> 
                 <p className="Project-content">
                   <span className="highlight">공공데이터 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
                    서비스를 개발 중입니다. <br />
-                  <span className="highlight">메인 페이지, 축제 검색, 상세 페이지, 반응형 UI</span>를 구현했으며,  <br />
-                  <span className="highlight">기획, DB 설계 및 API 연동</span>을 직접 담당했습니다.
+                  <span className="highlight">축제 검색, 상세 페이지, 지도 연동, 즐겨찾기, 반응형 UI</span>를 구현했으며, 
+                  <span className="highlight">DB 설계 및 API 연동</span>을 직접 담당했습니다.
                 </p>
                 <ul className="Project-ul">
-                  <li>React 기반 축제 메인/상세 페이지 UI 제작</li>
-                  <li>공공데이터포털 축제 정보 API 연동</li>
-                  <li>검색 및 필터 기능(지역/기간별)</li>
-                  <li>Spring Boot 기반 백엔드 (축제 정보 DB 관리, API 제공)</li>
-                  <li>AWS EC2, RDS 배포 예정</li>
+                  <li>React 기반 UI (목록·상세, 반응형 디자인)</li>
+                  <li>공공데이터포털 API 연동 (검색/필터)</li>
+                  <li>지도 연동 (카카오맵)</li>
+                  <li>즐겨찾기(찜하기) 기능</li>
+                  <li>Spring Boot 기반 백엔드 (축제 DB 관리, API 제공) </li>
+                  <li> AWS EC2·RDS 배포 예정</li>
                 </ul>
             </div>
 
@@ -126,6 +127,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               onClick={(e) => e.preventDefault()}
+              style={{marginTop : "40px"}}
             >
               <img
                 src="/"

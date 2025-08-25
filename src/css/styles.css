@@ -343,6 +343,11 @@ html, body, #root {
   z-index: 2;
 }
 
+/* 호버 시에는 ::before 글씨 안 보이게 */
+.Preview-card.developing:hover::before {
+  content: "";
+}
+
 /* 개발중 문구 스타일 */
 .Preview-card.developing2::before {
   content: "개발 진행 중...";
@@ -358,12 +363,6 @@ html, body, #root {
   user-select: none;
   z-index: 2;
 }
-
-/* 호버 시에는 ::before 글씨 안 보이게 */
-.Preview-card.developing:hover::before {
-  content: "";
-}
-
 
 /* 오버레이 공통 */
 .Preview-overlay {
