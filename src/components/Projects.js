@@ -130,7 +130,7 @@ const Projects = () => {
               style={{marginTop : "40px"}}
             >
               <img
-                src="/"
+                src="/my-portfolio-react-app/festivalWeb.png"
                 alt="전국 축제 웹서비스 미리보기"
                 className="Preview-img"
               />
