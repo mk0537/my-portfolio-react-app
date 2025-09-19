@@ -54,10 +54,55 @@ const Projects = () => {
             </a>
           </div>
         </div>
-     
-        {/* 팀 프로젝트 - 1  */}
-        <div className="Project-slide">
+
+        {/* 팀 프로젝트 - 1 */}
+          <div className="Project-slide">
           <h3 className="Project-category">🤝 팀 프로젝트 - 1</h3>
+          <div className="Project-row">
+            <div className="Project-container">
+              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지 </h3> <small style={{color : "grey"}}>(2025.08.11 ~ing)</small> 
+                <p className="Project-content">
+                  <span className="highlight">공공데이터포털 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
+                   서비스를 개발하였습니다. <br />
+                  <span className="highlight">메인 페이지, 좋아요 기능, 축제 검색, 반응형 UI 등</span>을 구현했으며, 
+                  <span className="highlight">DB 설계 및 API 연동</span>을 직접 담당했습니다.
+                </p>
+                <ul className="Project-ul">
+                  <li>Spring Boot 기반 백엔드 (축제 DB 관리, API 제공) </li>
+                  <li>React 기반 UI (목록·상세, 반응형 디자인)</li>
+                  <li>메인 페이지 제작</li>
+                  <li>공공데이터포털 API 연동</li>
+                  <li>좋아요(찜하기) 기능 / 축제 검색 기능</li>
+                </ul>
+            </div>
+
+            <a
+              href="https://mk0537.github.io/festival-portfolio-react-app-/"
+              className="Preview-card developing2"
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.preventDefault()}
+              style={{marginTop : "40px"}}
+            >
+              <img
+                src="/my-portfolio-react-app/festivalWeb.png"
+                alt="전국 축제 웹서비스 미리보기"
+                className="Preview-img"
+              />
+              <div className="Preview-title">Festival_web_project</div>
+              <div className="Preview-overlay danger">
+                <div className="Overlay-title">⚠️ 알림</div>
+                <div className="Overlay-description">
+                  관리자 페이지, AI 기능 페이지는 구현 진행 중입니다.
+                </div> 
+              </div>
+            </a>
+          </div>
+          </div>
+     
+        {/* 팀 프로젝트 - 2  */}
+        <div className="Project-slide">
+          <h3 className="Project-category">🤝 팀 프로젝트 - 2</h3>
           <div className="Project-row">
             <div className="Project-container">
               <h3 className="Project-subtitle">📚 북 카페 서비스</h3>
@@ -98,52 +143,6 @@ const Projects = () => {
             </a>
             </div>
             </div>
-
-          {/* 팀 프로젝트 - 2 */}
-          <div className="Project-slide">
-          <h3 className="Project-category">🤝 팀 프로젝트 - 2</h3>
-          <div className="Project-row">
-            <div className="Project-container">
-              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지 </h3> <small style={{color : "grey"}}>(2025.08.11 ~ing)</small> 
-                <p className="Project-content">
-                  <span className="highlight">공공데이터 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
-                   서비스를 개발 중입니다. <br />
-                  <span className="highlight">축제 검색, 상세 페이지, 지도 연동, 즐겨찾기, 반응형 UI</span>를 구현했으며, 
-                  <span className="highlight">DB 설계 및 API 연동</span>을 직접 담당했습니다.
-                </p>
-                <ul className="Project-ul">
-                  <li>React 기반 UI (목록·상세, 반응형 디자인)</li>
-                  <li>공공데이터포털 API 연동 (검색/필터)</li>
-                  <li>지도 연동 (카카오맵)</li>
-                  <li>즐겨찾기(찜하기) 기능</li>
-                  <li>Spring Boot 기반 백엔드 (축제 DB 관리, API 제공) </li>
-                  <li> AWS EC2·RDS 배포 예정</li>
-                </ul>
-            </div>
-
-            <a
-              href="#"
-              className="Preview-card developing2"
-              target="_blank"
-              rel="noreferrer"
-              onClick={(e) => e.preventDefault()}
-              style={{marginTop : "40px"}}
-            >
-              <img
-                src="/my-portfolio-react-app/festivalWeb.png"
-                alt="전국 축제 웹서비스 미리보기"
-                className="Preview-img"
-              />
-              <div className="Preview-title">Festival_web_project</div>
-              {/*<div className="Preview-overlay danger">
-                <div className="Overlay-title">⚠️ 문제점 발생</div>
-                <div className="Overlay-description">
-                 팀원의 갑작스런 커뮤니케이션 문제로 보수 중입니다.
-                </div> 
-              </div> */}
-            </a>
-          </div>
-          </div>
     </section>
   );
 };
