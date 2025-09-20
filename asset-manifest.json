@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react-app/static/css/main.0f76ff07.css",
-    "main.js": "/my-portfolio-react-app/static/js/main.ee9793e0.js",
+    "main.css": "/my-portfolio-react-app/static/css/main.5fcf9a74.css",
+    "main.js": "/my-portfolio-react-app/static/js/main.405e8a0e.js",
     "static/js/453.89bbc335.chunk.js": "/my-portfolio-react-app/static/js/453.89bbc335.chunk.js",
     "static/media/slick.svg": "/my-portfolio-react-app/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/my-portfolio-react-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/my-portfolio-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/my-portfolio-react-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio-react-app/index.html",
-    "main.0f76ff07.css.map": "/my-portfolio-react-app/static/css/main.0f76ff07.css.map",
-    "main.ee9793e0.js.map": "/my-portfolio-react-app/static/js/main.ee9793e0.js.map",
+    "main.5fcf9a74.css.map": "/my-portfolio-react-app/static/css/main.5fcf9a74.css.map",
+    "main.405e8a0e.js.map": "/my-portfolio-react-app/static/js/main.405e8a0e.js.map",
     "453.89bbc335.chunk.js.map": "/my-portfolio-react-app/static/js/453.89bbc335.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f76ff07.css",
-    "static/js/main.ee9793e0.js"
+    "static/css/main.5fcf9a74.css",
+    "static/js/main.405e8a0e.js"
   ]
 }
