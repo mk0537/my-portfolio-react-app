@@ -330,9 +330,9 @@ html, body, #root {
   filter: blur(2.8px);
 }
 
-.Preview-card.developing2 img {
+/* .Preview-card.developing2 img {
   filter: blur(2.1px);
-}
+} */
 
 .Preview-card.developing::before {
   content: "보완 작업 중...";
@@ -355,7 +355,7 @@ html, body, #root {
 }
 
 /* 개발중 문구 스타일 */
-.Preview-card.developing2::before {
+/* .Preview-card.developing2::before {
   content: "개발 진행 중...";
   position: absolute;
   top: 50%;
@@ -368,7 +368,7 @@ html, body, #root {
   pointer-events: none;
   user-select: none;
   z-index: 2;
-}
+} */
 
 /* 오버레이 공통 */
 .Preview-overlay {

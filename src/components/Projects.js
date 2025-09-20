@@ -81,7 +81,6 @@ const Projects = () => {
               className="Preview-card developing2"
               target="_blank"
               rel="noreferrer"
-              onClick={(e) => e.preventDefault()}
               style={{marginTop : "40px"}}
             >
               <img
@@ -93,7 +92,7 @@ const Projects = () => {
               <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 알림</div>
                 <div className="Overlay-description">
-                  관리자 페이지, AI 기능 페이지는 구현 진행 중입니다.
+                  관리자 페이지 및 AI 기능 설명 페이지는 팀 내 진행 중인 작업으로, 곧 포트폴리오에 업데이트될 예정입니다.
                 </div> 
               </div>
             </a>
