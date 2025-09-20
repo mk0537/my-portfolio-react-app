@@ -45,12 +45,13 @@ const Projects = () => {
                 className="Preview-img"
               />
               <div className="Preview-title">my-login-project</div>
-              {/* <div className="Preview-overlay danger">
+              <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 문제점 발생</div>
                 <div className="Overlay-description">
-                  게시글 작성일 정보가 전달되고 있지 않아 해결하는 중입니다.
+                  🚧 현재 AWS 계정 문제로 인해 배포된 페이지 접속 시 404 오류가 발생하고 있습니다.
+                  원인 분석을 완료하였으며, 계정 복구 및 배포 환경 재설정을 통해 해결 작업을 진행 중입니다.
                 </div>
-              </div> */}
+              </div>
             </a>
           </div>
         </div>
