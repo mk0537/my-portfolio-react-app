@@ -19,7 +19,7 @@ const Projects = () => {
           <h3 className="Project-category">👤 개인 프로젝트</h3>
           <div className="Project-row">
             <div className="Project-container">
-              <h3 className="Project-subtitle">📝 나만의 게시판</h3>
+              <h3 className="Project-subtitle">📝 나만의 게시판</h3> <small style={{color : "grey"}}>(2025.06.28 ~ 2025. 07. 17)</small> 
               <p className="Project-content">
                 Spring Boot + React 기반 <span className="highlight">JWT 인증 게시판</span> 서비스입니다. <br />
                 <strong>로그인 / 회원가입, 게시글, 댓글, 좋아요</strong> 기능을 포함하며 <span className="highlight">AWS 배포</span>까지 경험하였습니다.
@@ -61,7 +61,7 @@ const Projects = () => {
           <h3 className="Project-category">🤝 팀 프로젝트 - 1</h3>
           <div className="Project-row">
             <div className="Project-container">
-              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지 </h3> <small style={{color : "grey"}}>(2025.08.11 ~ing)</small> 
+              <h3 className="Project-subtitle">🎉 전국 축제 정보 웹페이지 </h3> <small style={{color : "grey"}}>(2025.08.11 ~ 2025.09.11)</small> 
                 <p className="Project-content">
                   <span className="highlight">공공데이터포털 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
                    서비스를 개발하였습니다. <br />
