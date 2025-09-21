@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
 
             <a
-              href="http://my-login-frontend-bucket.s3-website.ap-northeast-2.amazonaws.com"
+              href="http://my-login2-frontend.s3-website.ap-northeast-2.amazonaws.com"
               className="Preview-card"
               target="_blank"
               rel="noreferrer"
@@ -45,13 +45,13 @@ const Projects = () => {
                 className="Preview-img"
               />
               <div className="Preview-title">my-login-project</div>
-              <div className="Preview-overlay danger">
+              {/* <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 문제점 발생</div>
                 <div className="Overlay-description">
                   🚧 현재 AWS 계정 문제로 인해 배포된 페이지 접속 시 404 오류가 발생하고 있습니다.
                   원인 분석을 완료하였으며, 계정 복구 및 배포 환경 재설정을 통해 해결 작업을 진행 중입니다.
                 </div>
-              </div>
+              </div> */}
             </a>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Projects = () => {
           <h3 className="Project-category">🤝 팀 프로젝트 - 2</h3>
           <div className="Project-row">
             <div className="Project-container">
-              <h3 className="Project-subtitle">📚 북 카페 서비스</h3>
+              <h3 className="Project-subtitle">📚 북 카페 서비스</h3> <small style={{color : "grey"}}>(2025.07.11 ~ ing)</small>
               <p className="Project-content">
                 <span className="highlight">도서 API와 JWT 인증</span>을 활용한 도서 찜 서비스입니다. <br />
                 팀원들과 협업하여 <span className="highlight">외부 API 연동 도서 검색, 찜 목록, 메인페이지 UI</span> 및 <span className="highlight">DB 설계, 배포</span>를 담당했습니다.
