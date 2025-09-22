@@ -38,6 +38,9 @@ const Projects = () => {
               className="Preview-card"
               target="_blank"
               rel="noreferrer"
+              style={{
+                marginTop : "20px"
+              }}
             >
               <img
                 src="/my-portfolio-react-app/myboard.png"
@@ -66,7 +69,7 @@ const Projects = () => {
                   <span className="highlight">공공데이터포털 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
                    서비스를 개발하였습니다. <br />
                   <span className="highlight">메인 페이지, 좋아요 기능, 축제 검색, 반응형 UI 등</span>을 구현했으며, 
-                  <span className="highlight">DB 설계 및 API 연동</span>을 직접 담당했습니다.
+                  <span className="highlight"> DB 설계 및 API 연동</span>을 직접 담당했습니다.
                 </p>
                 <ul className="Project-ul">
                   <li>Spring Boot 기반 백엔드 (축제 DB 관리, API 제공) </li>
@@ -79,10 +82,12 @@ const Projects = () => {
 
             <a
               href="https://mk0537.github.io/festival-portfolio-react-app-/"
-              className="Preview-card developing2"
+              className="Preview-card developing"
               target="_blank"
               rel="noreferrer"
-              style={{marginTop : "40px"}}
+              style={{
+                marginTop : "40px"
+              }}
             >
               <img
                 src="/my-portfolio-react-app/festivalWeb.png"
@@ -125,6 +130,9 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               onClick={(e) => e.preventDefault()}
+              style={{
+                marginTop : "20px"
+              }}
             >
               <img
                 src="/my-portfolio-react-app/bookcafe.png"
