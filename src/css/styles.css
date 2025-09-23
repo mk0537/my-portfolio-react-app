@@ -326,15 +326,15 @@ html, body, #root {
 }
 
 /* 팀 프로젝트 미리보기에 블러 처리 */
-.Preview-card.developing img {
+/* .Preview-card.developing img {
   filter: blur(2.8px);
-}
+} */
 
 /* .Preview-card.developing2 img {
   filter: blur(2.1px);
 } */
 
-.Preview-card.developing::before {
+/* .Preview-card.developing::before {
   content: "보완 작업 중...";
   position: absolute;
   top: 50%;
@@ -347,7 +347,7 @@ html, body, #root {
   pointer-events: none;
   user-select: none;
   z-index: 2;
-}
+} */
 
 /* 호버 시에는 ::before 글씨 안 보이게 */
 .Preview-card.developing:hover::before {

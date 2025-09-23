@@ -68,7 +68,7 @@ const Projects = () => {
                 <p className="Project-content">
                   <span className="highlight">공공데이터포털 API</span>를 활용하여 전국 축제 정보를 제공하는 <br />
                    서비스를 개발하였습니다. <br />
-                  <span className="highlight">메인 페이지, 좋아요 기능, 축제 검색, 반응형 UI 등</span>을 구현했으며, 
+                  <span className="highlight">메인페이지, 좋아요 기능, 축제 검색, 반응형 UI 등</span>을 구현했으며, 
                   <span className="highlight"> DB 설계 및 API 연동</span>을 직접 담당했습니다.
                 </p>
                 <ul className="Project-ul">
@@ -95,12 +95,12 @@ const Projects = () => {
                 className="Preview-img"
               />
               <div className="Preview-title">Festival_web_project</div>
-              <div className="Preview-overlay danger">
+              {/* <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 알림</div>
                 <div className="Overlay-description">
                   관리자 페이지 및 AI 기능 설명 페이지는 팀 내 진행 중인 작업으로, 곧 포트폴리오에 업데이트될 예정입니다.
                 </div> 
-              </div>
+              </div> */}
             </a>
           </div>
           </div>
