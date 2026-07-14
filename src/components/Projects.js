@@ -19,17 +19,24 @@ const Projects = () => {
           <h3 className="Project-category">👤 개인 프로젝트</h3>
           <div className="Project-row">
             <div className="Project-container">
-              <h3 className="Project-subtitle">📝 나만의 게시판</h3> <small style={{color : "grey"}}>(2025.06.28 ~ 2025. 07. 17)</small> 
+              <h3 className="Project-subtitle">🐶 같이 산책해요</h3>
+              <small style={{ color: "grey" }}>
+                (2026.07.06 ~ 진행중)
+              </small>
+
               <p className="Project-content">
-                Spring Boot + React 기반 <span className="highlight">JWT 인증 게시판</span> 서비스입니다. <br />
-                <strong>로그인 / 회원가입, 게시글, 댓글, 좋아요</strong> 기능을 포함하며 <span className="highlight">AWS 배포</span>까지 경험하였습니다.
+                Spring Boot + React 기반 <span className="highlight">반려동물 산책 매칭</span> 서비스입니다. <br />
+                <strong>지역, 시간, 견종 등의 조건을 통해 함께 산책할 반려인을 모집하고</strong>,
+                <span className="highlight">실시간 채팅</span>으로 약속을 잡을 수 있는 웹서비스입니다.
               </p>
+
               <ul className="Project-ul">
-                <li>JWT 인증 회원가입/로그인 + 임시 비밀번호 재설정</li>
-                <li>게시판 CRUD + Toast UI 이미지 업로드</li>
-                <li>댓글, 좋아요, 마이페이지</li>
-                <li>회원 정보 수정, ID, 비밀번호 찾기</li>
-                <li>AWS EC2, RDS, EB 활용 배포 및 로그 분석</li>
+                <li>JWT 기반 회원가입 / 로그인 및 권한 관리</li>
+                <li>산책 모집 게시글 CRUD 및 지역 · 날짜 · 견종 검색</li>
+                <li>참여 신청 및 모집 상태(모집중 / 모집완료) 관리</li>
+                <li>반려견 프로필(견종, 나이, 성별, 성격) 등록</li>
+                <li>WebSocket(STOMP)를 활용한 1:1 실시간 채팅</li>
+                <li>AWS S3 이미지 업로드 및 EC2 배포</li>
               </ul>
             </div>
 
