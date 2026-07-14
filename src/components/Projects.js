@@ -41,7 +41,7 @@ const Projects = () => {
             </div>
 
             <a
-              href="http://my-login2-frontend.s3-website.ap-northeast-2.amazonaws.com"
+              href="#"
               className="Preview-card"
               target="_blank"
               rel="noreferrer"
@@ -50,18 +50,18 @@ const Projects = () => {
               }}
             >
               <img
-                src="/my-portfolio-react-app/myboard.png"
-                alt="나만의 게시판 미리보기"
+                src="/"
+                alt="미리보기"
                 className="Preview-img"
               />
-              <div className="Preview-title">my-login-project</div>
-              {/* <div className="Preview-overlay danger">
-                <div className="Overlay-title">⚠️ 문제점 발생</div>
-                <div className="Overlay-description">
+              <div className="Preview-title">my-petService_project</div>
+              <div className="Preview-overlay danger">
+                <div className="Overlay-title">⚠️ 개발진행중</div>
+                {/* <div className="Overlay-description">
                   🚧 현재 AWS 계정 문제로 인해 배포된 페이지 접속 시 404 오류가 발생하고 있습니다.
                   원인 분석을 완료하였으며, 계정 복구 및 배포 환경 재설정을 통해 해결 작업을 진행 중입니다.
-                </div>
-              </div> */}
+                </div> */}
+              </div>
             </a>
           </div>
         </div>
@@ -102,12 +102,6 @@ const Projects = () => {
                 className="Preview-img"
               />
               <div className="Preview-title">Festival_web_project</div>
-              {/* <div className="Preview-overlay danger">
-                <div className="Overlay-title">⚠️ 알림</div>
-                <div className="Overlay-description">
-                  관리자 페이지 및 AI 기능 설명 페이지는 팀 내 진행 중인 작업으로, 곧 포트폴리오에 업데이트될 예정입니다.
-                </div> 
-              </div> */}
             </a>
           </div>
           </div>
