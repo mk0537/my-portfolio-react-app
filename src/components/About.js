@@ -1,21 +1,35 @@
 const About = () => {
   return (
     <section className="About">
-    <h1 className="About-title">👋 About Me</h1>
-    <div className="About-container">
-        <h3 className="About-greeting">🌱 안녕하세요, 저는 개발자가 되고 싶은 김민경입니다.</h3>
+      <h1 className="About-title">👋 About Me</h1>
+
+      <div className="About-container">
+        <h3 className="About-greeting">
+          🌱 안녕하세요, 사용자 경험을 고민하는 개발자 김민경입니다.
+        </h3>
+
         <p className="About-content">
-        &nbsp; 저는 개발, 마케팅, 영상 편집, 유튜브 채널 운영 등 다양한 경험을 쌓아온 만능형 도전자입니다.
-        &nbsp; 파이썬, AI 등 최신 기술에도 관심이 많으며, 배우고 성장하는 속도에는 자신이 있습니다.
-        &nbsp; 급여보다는 함께 성장하고 새로운 가치를 만들어가는 경험을 가장 소중하게 생각합니다.
-        <br /> <span className="highlight">귀사와 함께 더 큰 성장을 만들어가고 싶습니다!</span>
-        <br /> <br />
-          <p className="About-content2">&nbsp; 대학에서 웹 개발을 시작해 <span className="highlight">풀스택 국비교육을 수료</span>하였고 <span className="highlight">React + Spring Boot</span>를 중심으로 한 
-          팀 프로젝트, 개인 프로젝트를 통해 실무에 필요한 역량을 키워왔으며, <span className="highlight">AWS 배포</span> 경험도 보유하고 있습니다. <br />
-          &nbsp; 앞으로도 기술과 협업 능력을 함께 성장시키며 실무에서 즉시 활용 가능한 개발자가 되겠습니다.
+          &nbsp; 저는 프론트엔드 실무 경험을 바탕으로 Java · Spring 웹 개발자로 성장하고 있는 개발자입니다.
+          실무에서는 HTML, CSS, JavaScript, jQuery를 활용하여 화면 개발과 유지보수를 수행했으며,
+          고객사의 의견을 직접 듣고 UI를 개선하며 사용자 관점에서 서비스를 고민하는 경험을 쌓았습니다.
+
+          <br /><br />
+
+          &nbsp; 현재는 React와 Spring Boot를 중심으로 개인 프로젝트를 개발하며
+          백엔드 역량을 꾸준히 확장하고 있습니다.
+          또한 Java와 Spring, 코딩 테스트를 지속적으로 학습하며
+          실무에서 필요한 기본기를 다지고 있습니다.
+
+          <br /><br />
+
+          <p className="About-content2">
+            &nbsp; 개발뿐 아니라 개인적으로 인스타그램 릴스, 유튜브 쇼츠, 틱톡 콘텐츠를 직접 기획하고 촬영·편집하며 운영하고 있습니다.
+            사용자 반응과 데이터를 분석하여 콘텐츠를 개선하는 과정을 반복하면서
+            사용자의 관점에서 생각하고 지속적으로 개선하는 습관을 길렀습니다.
+            이러한 경험을 개발에도 적용하여 더 나은 사용자 경험을 만드는 개발자가 되고자 합니다.
           </p>
         </p>
-    </div>
+      </div>
     </section>
   );
 };

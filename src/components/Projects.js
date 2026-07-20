@@ -54,7 +54,7 @@ const Projects = () => {
                 alt="미리보기"
                 className="Preview-img"
               />
-              <div className="Preview-title">my-petService_project</div>
+              <div className="Preview-title">my-petService-project</div>
               <div className="Preview-overlay danger">
                 <div className="Overlay-title">⚠️ 개발진행중</div>
                 {/* <div className="Overlay-description">
